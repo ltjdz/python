@@ -1,0 +1,5 @@
+#在pycharm虚拟环境下用pip install django -i https://mirrors.aliyun.com/pypi/simple/安装django
+django-admin startproject yiqiBM(项目名字)
+cd yiqiBM
+python manage.py startapp yqbm
+modify yiqiBM目录下的settings.py，在INSTALLED_APPS里加yqbm
